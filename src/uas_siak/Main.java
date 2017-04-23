@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uas_siak;
+package uas;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import java.sql.Connection;
@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author mira margaretha (1642801)
+ * @author Rieke
  */
 public class Main {
 
@@ -27,7 +27,7 @@ public class Main {
         MysqlDataSource dataSource = new MysqlDataSource();
         dataSource.setUser("root");
         dataSource.setPassword("");
-        dataSource.setDatabaseName("siak_uas?serverTimezone=UTC");
+        dataSource.setDatabaseName("uas?serverTimezone=UTC");
         dataSource.setServerName("localhost");
         dataSource.setPortNumber(3306);
 
